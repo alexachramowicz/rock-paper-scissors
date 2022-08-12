@@ -36,7 +36,7 @@ function playRound(playerSelection, computerSelection) {
 }
 
 function getPlayerSelection() {
-    let playerSelection = prompt("Rock, Paper, or Scissors?");
+    // let playerSelection = prompt("Rock, Paper, or Scissors?");
     playerSelection = playerSelection.toLowerCase();
     if(playerSelection !== "rock" && playerSelection !== "paper"
         && playerSelection !== "scissors") {
@@ -49,15 +49,15 @@ function game() {
     let playerWins = 0;
     let computerWins = 0;
     let winner = 0;
-    for(let i = 0; i < 5; i++) {
-        winner = playRound(getPlayerSelection(), getComputerChoice());
-        if(winner === 1)
-            ++playerWins;
-        else if (winner === 0)
-            ++computerWins;
-        else
-            continue;
-    }
+    // for(let i = 0; i < 5; i++) {
+    winner = playRound(getPlayerSelection(), getComputerChoice());
+    if(winner === 1)
+        ++playerWins;
+    else if (winner === 0)
+        ++computerWins;
+        // else
+        //     continue;
+    // }
     if (playerWins > computerWins) 
         return `Player wins ${playerWins} to ${computerWins}`;
     else if (computerWins > playerWins)
