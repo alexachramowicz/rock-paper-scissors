@@ -1,0 +1,3 @@
+-winner p delayed, not directly responsive
+-add counter functionality to playRound()
+-setAttribute to counters when incremented (end of eventlisten?)
