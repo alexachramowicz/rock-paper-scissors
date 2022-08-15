@@ -21,3 +21,9 @@ ul {
     display: flex;
     align-items: center;
 }
+
+.winner-container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
