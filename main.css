@@ -9,12 +9,16 @@ html, body {
     align-items: center;
 }
 
-ul {
+ul, .btn-container {
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
     gap: 15px;
+}
+
+.result-container {
+    display: flex;
 }
 
 .scoreboard-container {
@@ -23,7 +27,7 @@ ul {
     align-items: center;
 }
 
-.results-container {
+.score-containers {
     display: flex;
     align-items: center;
     gap: 10px;

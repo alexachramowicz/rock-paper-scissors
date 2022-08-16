@@ -1,2 +1,2 @@
--add counter functionality to playRound()
--setAttribute to counters when incremented (end of eventlisten?)
+-change counter to green after a winner
+-add help button
